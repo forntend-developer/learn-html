@@ -1,0 +1,23 @@
+.menu li:last-child a {
+  color: red;
+}
+.container {
+  background-color: gray;
+}
+.box_container div:first-of-type {
+  background-color: yellow;
+  border: 1px soild blue;
+}
+
+.item_box {
+  .item02 {
+    font-size: 20px;
+  }
+  .item03 {
+    text-decoration: underline;
+  }
+}
+
+footer:hover .footer {
+  color: red;
+}

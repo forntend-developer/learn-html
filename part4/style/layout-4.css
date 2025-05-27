@@ -1,0 +1,36 @@
+.container {
+  width: 70vw;
+  margin: 0 auto;
+}
+header {
+  height: 100px;
+  background-color: pink;
+  margin-bottom: 20px;
+}
+.section {
+  height: 300px;
+  display: flex;
+  margin-bottom: 20px;
+  .left {
+    flex: 1;
+    background-color: blue;
+  }
+  .right {
+    flex: 1;
+    background-color: orange;
+  }
+}
+.list_box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  li {
+    background-color: dodgerblue;
+    flex-basis: 200px;
+    height: 50px;
+  }
+}
+footer {
+  height: 100px;
+  background-color: gray;
+}

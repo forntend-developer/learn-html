@@ -1,0 +1,40 @@
+/* 
+
+* : 아스테리스크
+- : 하이픈
+_ : 언더스코어
+__ : 던더
+& : 엔퍼센드
+
+
+네이밍 규칙
+
+kebab-case / ease-in-out-bounce
+snake_case / ease_in_out_bounce
+camelCase / easeInOutBounce
+PascalCase / EaseInOutBounce (앞에는 대문자로 쓰면 생성자(constructor) 역할을 함 --> component --> React )
+
+*/
+
+div {
+  width: 200px;
+  height: 200px;
+}
+.box01 {
+  background-color: red;
+  /* margin-inline: 30px; */
+}
+.box02 {
+  background-color: dodgerblue;
+  padding:10px;
+}
+.box03 {
+  background-color: orange;
+  border: 10px solid red;
+  border-radius: 50%;
+}
+.box04 {
+  box-sizing: border-box;
+  background-color: greenyellow;
+  border: 5px solid black;
+}

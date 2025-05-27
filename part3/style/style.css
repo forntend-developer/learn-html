@@ -1,0 +1,24 @@
+.list {background-color: pink;}
+
+/* list 안에 있는 li들에게만 */
+/* 한칸 띄어쓰기 : ~안에있는 */
+.list > li {
+  background-color: dodgerblue;
+}
+
+/* list 안에 있는 친자식 menu에게만 */
+.list > .menu {
+  background-color: orange;
+}
+
+.list > li:last-child {
+  background-color: greenyellow;
+}
+
+
+/* CSS nesting */
+.list {
+  .menu {
+    background-color: aqua;
+  }
+}

@@ -1,0 +1,43 @@
+
+.wrap {
+  width: 1000px;
+  margin: 0 auto;
+}
+header {
+  height: 100px;
+  background-color: orange;
+  margin-bottom: 20px;
+}
+.section {
+  height: 700px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.section .snb {
+  width: 200px;
+  background-color: dodgerblue;
+}
+.section .contents {
+  /* width: calc(100% - 210px); */
+  flex: 1;
+  background-color: greenyellow;
+}
+.bottom-list {
+  display: flex;
+  gap: 5px;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+.bottom-list li {
+  /* width: 330px; */
+  height: 130px;
+  background-color: pink;
+  margin: 0;
+  flex: 1;
+}
+footer {
+  height: 50px;
+  background-color: black;
+}
