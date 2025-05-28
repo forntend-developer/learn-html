@@ -15,6 +15,12 @@ body {
   border-radius: 8px;
   background: #fff;
 }
+.card button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  font-family: inherit;
+}
 .card_content {
   position: relative;
   display: flex;
@@ -29,7 +35,7 @@ body {
     color: #000;
     font-weight: 600;
   }
-  .save {
+  .bookmark {
     position: absolute;
     right: 8px;
     top: 8px;
@@ -80,6 +86,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    font-size: 16px;
     border-radius: 15px;
     background: #000;
     border: none;
